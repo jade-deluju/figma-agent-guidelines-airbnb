@@ -1,0 +1,589 @@
+{
+  "Margin": {
+    "Page": {
+      "$type": "dimension",
+      "$value": "{Space.16}",
+      "$description": "화면 좌우 바깥 여백",
+      "$extensions": {
+        "com.figma.scopes": [
+          "GAP"
+        ],
+        "com.figma.hiddenFromPublishing": false
+      }
+    }
+  },
+  "Gap": {
+    "Section": {
+      "$type": "dimension",
+      "$value": "{Space.32}",
+      "$description": "의미 단위 섹션 사이의 세로 간격",
+      "$extensions": {
+        "com.figma.scopes": [
+          "GAP"
+        ],
+        "com.figma.hiddenFromPublishing": false
+      }
+    },
+    "Stack": {
+      "$type": "dimension",
+      "$value": "{Space.12}",
+      "$description": "같은 그룹 안에서 세로로 쌓인 요소 사이 간격",
+      "$extensions": {
+        "com.figma.scopes": [
+          "GAP"
+        ],
+        "com.figma.hiddenFromPublishing": false
+      }
+    },
+    "Inline": {
+      "$type": "dimension",
+      "$value": "{Space.8}",
+      "$description": "가로로 나열된 요소 사이 간격",
+      "$extensions": {
+        "com.figma.scopes": [
+          "GAP"
+        ],
+        "com.figma.hiddenFromPublishing": false
+      }
+    },
+    "Inline Tight": {
+      "$type": "dimension",
+      "$value": "{Space.4}",
+      "$description": "작은 컨트롤 안의 좁은 가로 간격",
+      "$extensions": {
+        "com.figma.scopes": [
+          "GAP"
+        ],
+        "com.figma.hiddenFromPublishing": false
+      }
+    }
+  },
+  "Inset": {
+    "Sm": {
+      "$type": "dimension",
+      "$value": "{Space.12}",
+      "$description": "작은 컨트롤의 안쪽 여백",
+      "$extensions": {
+        "com.figma.scopes": [
+          "GAP"
+        ],
+        "com.figma.hiddenFromPublishing": false
+      }
+    },
+    "Md": {
+      "$type": "dimension",
+      "$value": "{Space.16}",
+      "$description": "기본 컨트롤의 안쪽 여백",
+      "$extensions": {
+        "com.figma.scopes": [
+          "GAP"
+        ],
+        "com.figma.hiddenFromPublishing": false
+      }
+    },
+    "Lg": {
+      "$type": "dimension",
+      "$value": "{Space.20}",
+      "$description": "큰 컨트롤의 안쪽 여백",
+      "$extensions": {
+        "com.figma.scopes": [
+          "GAP"
+        ],
+        "com.figma.hiddenFromPublishing": false
+      }
+    },
+    "Container": {
+      "$type": "dimension",
+      "$value": "{Space.16}",
+      "$description": "카드·시트·모달의 안쪽 여백",
+      "$extensions": {
+        "com.figma.scopes": [
+          "GAP"
+        ],
+        "com.figma.hiddenFromPublishing": false
+      }
+    }
+  },
+  "Control Height": {
+    "Sm": {
+      "$type": "dimension",
+      "$value": "{Size.32}",
+      "$description": "Sm 크기 컨트롤의 높이",
+      "$extensions": {
+        "com.figma.scopes": [
+          "WIDTH_HEIGHT"
+        ],
+        "com.figma.hiddenFromPublishing": false
+      }
+    },
+    "Md": {
+      "$type": "dimension",
+      "$value": "{Size.40}",
+      "$description": "Md 크기 컨트롤의 높이",
+      "$extensions": {
+        "com.figma.scopes": [
+          "WIDTH_HEIGHT"
+        ],
+        "com.figma.hiddenFromPublishing": false
+      }
+    },
+    "Lg": {
+      "$type": "dimension",
+      "$value": "{Size.48}",
+      "$description": "Lg 크기 컨트롤의 높이",
+      "$extensions": {
+        "com.figma.scopes": [
+          "WIDTH_HEIGHT"
+        ],
+        "com.figma.hiddenFromPublishing": false
+      }
+    }
+  },
+  "Control Min Width": {
+    "Sm": {
+      "$type": "dimension",
+      "$value": "{Size.64}",
+      "$description": "Sm 크기 컨트롤의 최소 너비",
+      "$extensions": {
+        "com.figma.scopes": [
+          "WIDTH_HEIGHT"
+        ],
+        "com.figma.hiddenFromPublishing": false
+      }
+    },
+    "Md": {
+      "$type": "dimension",
+      "$value": "{Size.80}",
+      "$description": "Md 크기 컨트롤의 최소 너비",
+      "$extensions": {
+        "com.figma.scopes": [
+          "WIDTH_HEIGHT"
+        ],
+        "com.figma.hiddenFromPublishing": false
+      }
+    },
+    "Lg": {
+      "$type": "dimension",
+      "$value": "{Size.96}",
+      "$description": "Lg 크기 컨트롤의 최소 너비",
+      "$extensions": {
+        "com.figma.scopes": [
+          "WIDTH_HEIGHT"
+        ],
+        "com.figma.hiddenFromPublishing": false
+      }
+    }
+  },
+  "Icon Size": {
+    "Sm": {
+      "$type": "dimension",
+      "$value": "{Size.16}",
+      "$description": "Sm 크기 아이콘의 가로세로",
+      "$extensions": {
+        "com.figma.scopes": [
+          "WIDTH_HEIGHT"
+        ],
+        "com.figma.hiddenFromPublishing": false
+      }
+    },
+    "Md": {
+      "$type": "dimension",
+      "$value": "{Size.20}",
+      "$description": "Md 크기 아이콘의 가로세로",
+      "$extensions": {
+        "com.figma.scopes": [
+          "WIDTH_HEIGHT"
+        ],
+        "com.figma.hiddenFromPublishing": false
+      }
+    },
+    "Lg": {
+      "$type": "dimension",
+      "$value": "{Size.24}",
+      "$description": "Lg 크기 아이콘의 가로세로",
+      "$extensions": {
+        "com.figma.scopes": [
+          "WIDTH_HEIGHT"
+        ],
+        "com.figma.hiddenFromPublishing": false
+      }
+    }
+  },
+  "Hit Area": {
+    "Min": {
+      "$type": "dimension",
+      "$value": "{Size.44}",
+      "$description": "터치 가능한 요소의 최소 히트 영역",
+      "$extensions": {
+        "com.figma.scopes": [
+          "WIDTH_HEIGHT"
+        ],
+        "com.figma.hiddenFromPublishing": false
+      }
+    }
+  },
+  "Corner": {
+    "Control": {
+      "$type": "dimension",
+      "$value": "{Radius.8}",
+      "$description": "컨트롤의 모서리",
+      "$extensions": {
+        "com.figma.scopes": [
+          "CORNER_RADIUS"
+        ],
+        "com.figma.hiddenFromPublishing": false
+      }
+    },
+    "Container": {
+      "$type": "dimension",
+      "$value": "{Radius.12}",
+      "$description": "컨테이너의 모서리",
+      "$extensions": {
+        "com.figma.scopes": [
+          "CORNER_RADIUS"
+        ],
+        "com.figma.hiddenFromPublishing": false
+      }
+    },
+    "Sheet": {
+      "$type": "dimension",
+      "$value": "{Radius.24}",
+      "$description": "떠 있는 면의 모서리",
+      "$extensions": {
+        "com.figma.scopes": [
+          "CORNER_RADIUS"
+        ],
+        "com.figma.hiddenFromPublishing": false
+      }
+    },
+    "Pill": {
+      "$type": "dimension",
+      "$value": "{Radius.Full}",
+      "$description": "양끝이 완전히 둥근 모서리",
+      "$extensions": {
+        "com.figma.scopes": [
+          "CORNER_RADIUS"
+        ],
+        "com.figma.hiddenFromPublishing": false
+      }
+    }
+  },
+  "Border Width": {
+    "Default": {
+      "$type": "dimension",
+      "$value": "{Stroke.1}",
+      "$description": "테두리와 구분선의 기본 두께",
+      "$extensions": {
+        "com.figma.scopes": [
+          "STROKE_FLOAT"
+        ],
+        "com.figma.hiddenFromPublishing": false
+      }
+    },
+    "Focus Ring": {
+      "$type": "dimension",
+      "$value": "{Stroke.2}",
+      "$description": "포커스 링의 두께",
+      "$extensions": {
+        "com.figma.scopes": [
+          "STROKE_FLOAT"
+        ],
+        "com.figma.hiddenFromPublishing": false
+      }
+    }
+  },
+  "Font Family": {
+    "Base": {
+      "$type": "fontFamily",
+      "$value": "{Type.Family.Sans}",
+      "$description": "모든 텍스트의 기본 글꼴",
+      "$extensions": {
+        "com.figma.scopes": [
+          "FONT_FAMILY"
+        ],
+        "com.figma.hiddenFromPublishing": false
+      }
+    }
+  },
+  "Font Size": {
+    "Display": {
+      "$type": "dimension",
+      "$value": "{Type.Size.28}",
+      "$description": "화면에서 가장 큰 표현용 텍스트의 글자 크기",
+      "$extensions": {
+        "com.figma.scopes": [
+          "FONT_SIZE"
+        ],
+        "com.figma.hiddenFromPublishing": false
+      }
+    },
+    "Heading Lg": {
+      "$type": "dimension",
+      "$value": "{Type.Size.24}",
+      "$description": "화면 제목의 글자 크기",
+      "$extensions": {
+        "com.figma.scopes": [
+          "FONT_SIZE"
+        ],
+        "com.figma.hiddenFromPublishing": false
+      }
+    },
+    "Heading Md": {
+      "$type": "dimension",
+      "$value": "{Type.Size.20}",
+      "$description": "섹션 제목의 글자 크기",
+      "$extensions": {
+        "com.figma.scopes": [
+          "FONT_SIZE"
+        ],
+        "com.figma.hiddenFromPublishing": false
+      }
+    },
+    "Heading Sm": {
+      "$type": "dimension",
+      "$value": "{Type.Size.18}",
+      "$description": "카드와 모달의 제목의 글자 크기",
+      "$extensions": {
+        "com.figma.scopes": [
+          "FONT_SIZE"
+        ],
+        "com.figma.hiddenFromPublishing": false
+      }
+    },
+    "Body": {
+      "$type": "dimension",
+      "$value": "{Type.Size.16}",
+      "$description": "본문의 글자 크기",
+      "$extensions": {
+        "com.figma.scopes": [
+          "FONT_SIZE"
+        ],
+        "com.figma.hiddenFromPublishing": false
+      }
+    },
+    "Body Sm": {
+      "$type": "dimension",
+      "$value": "{Type.Size.14}",
+      "$description": "보조 본문의 글자 크기",
+      "$extensions": {
+        "com.figma.scopes": [
+          "FONT_SIZE"
+        ],
+        "com.figma.hiddenFromPublishing": false
+      }
+    },
+    "Caption": {
+      "$type": "dimension",
+      "$value": "{Type.Size.12}",
+      "$description": "가장 작은 정보 텍스트의 글자 크기",
+      "$extensions": {
+        "com.figma.scopes": [
+          "FONT_SIZE"
+        ],
+        "com.figma.hiddenFromPublishing": false
+      }
+    },
+    "Label Lg": {
+      "$type": "dimension",
+      "$value": "{Type.Size.16}",
+      "$description": "Lg 컨트롤의 라벨의 글자 크기",
+      "$extensions": {
+        "com.figma.scopes": [
+          "FONT_SIZE"
+        ],
+        "com.figma.hiddenFromPublishing": false
+      }
+    },
+    "Label Md": {
+      "$type": "dimension",
+      "$value": "{Type.Size.14}",
+      "$description": "Md 컨트롤의 라벨의 글자 크기",
+      "$extensions": {
+        "com.figma.scopes": [
+          "FONT_SIZE"
+        ],
+        "com.figma.hiddenFromPublishing": false
+      }
+    },
+    "Label Sm": {
+      "$type": "dimension",
+      "$value": "{Type.Size.13}",
+      "$description": "Sm 컨트롤의 라벨의 글자 크기",
+      "$extensions": {
+        "com.figma.scopes": [
+          "FONT_SIZE"
+        ],
+        "com.figma.hiddenFromPublishing": false
+      }
+    }
+  },
+  "Line Height": {
+    "Display": {
+      "$type": "dimension",
+      "$value": "{Type.Line Height.36}",
+      "$description": "화면에서 가장 큰 표현용 텍스트의 줄 높이",
+      "$extensions": {
+        "com.figma.scopes": [
+          "LINE_HEIGHT"
+        ],
+        "com.figma.hiddenFromPublishing": false
+      }
+    },
+    "Heading Lg": {
+      "$type": "dimension",
+      "$value": "{Type.Line Height.32}",
+      "$description": "화면 제목의 줄 높이",
+      "$extensions": {
+        "com.figma.scopes": [
+          "LINE_HEIGHT"
+        ],
+        "com.figma.hiddenFromPublishing": false
+      }
+    },
+    "Heading Md": {
+      "$type": "dimension",
+      "$value": "{Type.Line Height.28}",
+      "$description": "섹션 제목의 줄 높이",
+      "$extensions": {
+        "com.figma.scopes": [
+          "LINE_HEIGHT"
+        ],
+        "com.figma.hiddenFromPublishing": false
+      }
+    },
+    "Heading Sm": {
+      "$type": "dimension",
+      "$value": "{Type.Line Height.24}",
+      "$description": "카드와 모달의 제목의 줄 높이",
+      "$extensions": {
+        "com.figma.scopes": [
+          "LINE_HEIGHT"
+        ],
+        "com.figma.hiddenFromPublishing": false
+      }
+    },
+    "Body": {
+      "$type": "dimension",
+      "$value": "{Type.Line Height.24}",
+      "$description": "본문의 줄 높이",
+      "$extensions": {
+        "com.figma.scopes": [
+          "LINE_HEIGHT"
+        ],
+        "com.figma.hiddenFromPublishing": false
+      }
+    },
+    "Body Sm": {
+      "$type": "dimension",
+      "$value": "{Type.Line Height.20}",
+      "$description": "보조 본문의 줄 높이",
+      "$extensions": {
+        "com.figma.scopes": [
+          "LINE_HEIGHT"
+        ],
+        "com.figma.hiddenFromPublishing": false
+      }
+    },
+    "Caption": {
+      "$type": "dimension",
+      "$value": "{Type.Line Height.16}",
+      "$description": "가장 작은 정보 텍스트의 줄 높이",
+      "$extensions": {
+        "com.figma.scopes": [
+          "LINE_HEIGHT"
+        ],
+        "com.figma.hiddenFromPublishing": false
+      }
+    },
+    "Label Lg": {
+      "$type": "dimension",
+      "$value": "{Type.Line Height.20}",
+      "$description": "Lg 컨트롤의 라벨의 줄 높이",
+      "$extensions": {
+        "com.figma.scopes": [
+          "LINE_HEIGHT"
+        ],
+        "com.figma.hiddenFromPublishing": false
+      }
+    },
+    "Label Md": {
+      "$type": "dimension",
+      "$value": "{Type.Line Height.20}",
+      "$description": "Md 컨트롤의 라벨의 줄 높이",
+      "$extensions": {
+        "com.figma.scopes": [
+          "LINE_HEIGHT"
+        ],
+        "com.figma.hiddenFromPublishing": false
+      }
+    },
+    "Label Sm": {
+      "$type": "dimension",
+      "$value": "{Type.Line Height.18}",
+      "$description": "Sm 컨트롤의 라벨의 줄 높이",
+      "$extensions": {
+        "com.figma.scopes": [
+          "LINE_HEIGHT"
+        ],
+        "com.figma.hiddenFromPublishing": false
+      }
+    }
+  },
+  "Font Weight": {
+    "Display": {
+      "$type": "fontWeight",
+      "$value": "{Type.Weight.Bold}",
+      "$description": "표현용 텍스트의 굵기",
+      "$extensions": {
+        "com.figma.scopes": [
+          "FONT_WEIGHT"
+        ],
+        "com.figma.hiddenFromPublishing": false
+      }
+    },
+    "Heading": {
+      "$type": "fontWeight",
+      "$value": "{Type.Weight.Semibold}",
+      "$description": "제목의 굵기",
+      "$extensions": {
+        "com.figma.scopes": [
+          "FONT_WEIGHT"
+        ],
+        "com.figma.hiddenFromPublishing": false
+      }
+    },
+    "Body": {
+      "$type": "fontWeight",
+      "$value": "{Type.Weight.Regular}",
+      "$description": "본문의 굵기",
+      "$extensions": {
+        "com.figma.scopes": [
+          "FONT_WEIGHT"
+        ],
+        "com.figma.hiddenFromPublishing": false
+      }
+    },
+    "Strong": {
+      "$type": "fontWeight",
+      "$value": "{Type.Weight.Semibold}",
+      "$description": "본문 안 강조의 굵기",
+      "$extensions": {
+        "com.figma.scopes": [
+          "FONT_WEIGHT"
+        ],
+        "com.figma.hiddenFromPublishing": false
+      }
+    },
+    "Label": {
+      "$type": "fontWeight",
+      "$value": "{Type.Weight.Medium}",
+      "$description": "컨트롤 라벨의 굵기",
+      "$extensions": {
+        "com.figma.scopes": [
+          "FONT_WEIGHT"
+        ],
+        "com.figma.hiddenFromPublishing": false
+      }
+    }
+  }
+}

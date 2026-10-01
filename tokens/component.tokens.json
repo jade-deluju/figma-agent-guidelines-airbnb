@@ -1,0 +1,746 @@
+{
+  "Button": {
+    "Primary": {
+      "Container": {
+        "Background": {
+          "Default": {
+            "$type": "color",
+            "$value": "{Fill.Primary.Default}",
+            "$extensions": {
+              "com.figma.scopes": [
+                "FRAME_FILL"
+              ],
+              "com.figma.hiddenFromPublishing": false
+            }
+          },
+          "Hover": {
+            "$type": "color",
+            "$value": "{Fill.Primary.Hover}",
+            "$extensions": {
+              "com.figma.scopes": [
+                "FRAME_FILL"
+              ],
+              "com.figma.hiddenFromPublishing": false
+            }
+          },
+          "Pressed": {
+            "$type": "color",
+            "$value": "{Fill.Primary.Pressed}",
+            "$extensions": {
+              "com.figma.scopes": [
+                "FRAME_FILL"
+              ],
+              "com.figma.hiddenFromPublishing": false
+            }
+          },
+          "Disabled": {
+            "$type": "color",
+            "$value": "{Fill.Disabled}",
+            "$extensions": {
+              "com.figma.scopes": [
+                "FRAME_FILL"
+              ],
+              "com.figma.hiddenFromPublishing": false
+            }
+          }
+        }
+      },
+      "Label": {
+        "Color": {
+          "Default": {
+            "$type": "color",
+            "$value": "{Text.On Primary}",
+            "$extensions": {
+              "com.figma.scopes": [
+                "TEXT_FILL"
+              ],
+              "com.figma.hiddenFromPublishing": false
+            }
+          },
+          "Hover": {
+            "$type": "color",
+            "$value": "{Text.On Primary}",
+            "$extensions": {
+              "com.figma.scopes": [
+                "TEXT_FILL"
+              ],
+              "com.figma.hiddenFromPublishing": false
+            }
+          },
+          "Pressed": {
+            "$type": "color",
+            "$value": "{Text.On Primary}",
+            "$extensions": {
+              "com.figma.scopes": [
+                "TEXT_FILL"
+              ],
+              "com.figma.hiddenFromPublishing": false
+            }
+          },
+          "Disabled": {
+            "$type": "color",
+            "$value": "{Text.Disabled}",
+            "$extensions": {
+              "com.figma.scopes": [
+                "TEXT_FILL"
+              ],
+              "com.figma.hiddenFromPublishing": false
+            }
+          }
+        }
+      },
+      "Icon": {
+        "Color": {
+          "Default": {
+            "$type": "color",
+            "$value": "{Icon.On Primary}",
+            "$extensions": {
+              "com.figma.scopes": [
+                "SHAPE_FILL",
+                "STROKE_COLOR"
+              ],
+              "com.figma.hiddenFromPublishing": false
+            }
+          },
+          "Hover": {
+            "$type": "color",
+            "$value": "{Icon.On Primary}",
+            "$extensions": {
+              "com.figma.scopes": [
+                "SHAPE_FILL",
+                "STROKE_COLOR"
+              ],
+              "com.figma.hiddenFromPublishing": false
+            }
+          },
+          "Pressed": {
+            "$type": "color",
+            "$value": "{Icon.On Primary}",
+            "$extensions": {
+              "com.figma.scopes": [
+                "SHAPE_FILL",
+                "STROKE_COLOR"
+              ],
+              "com.figma.hiddenFromPublishing": false
+            }
+          },
+          "Disabled": {
+            "$type": "color",
+            "$value": "{Icon.Disabled}",
+            "$extensions": {
+              "com.figma.scopes": [
+                "SHAPE_FILL",
+                "STROKE_COLOR"
+              ],
+              "com.figma.hiddenFromPublishing": false
+            }
+          }
+        }
+      }
+    },
+    "Accent": {
+      "Container": {
+        "Background": {
+          "Default": {
+            "$type": "color",
+            "$value": "{Fill.Accent.Default}",
+            "$extensions": {
+              "com.figma.scopes": [
+                "FRAME_FILL"
+              ],
+              "com.figma.hiddenFromPublishing": false
+            }
+          },
+          "Hover": {
+            "$type": "color",
+            "$value": "{Fill.Accent.Hover}",
+            "$extensions": {
+              "com.figma.scopes": [
+                "FRAME_FILL"
+              ],
+              "com.figma.hiddenFromPublishing": false
+            }
+          },
+          "Pressed": {
+            "$type": "color",
+            "$value": "{Fill.Accent.Pressed}",
+            "$extensions": {
+              "com.figma.scopes": [
+                "FRAME_FILL"
+              ],
+              "com.figma.hiddenFromPublishing": false
+            }
+          },
+          "Disabled": {
+            "$type": "color",
+            "$value": "{Fill.Disabled}",
+            "$extensions": {
+              "com.figma.scopes": [
+                "FRAME_FILL"
+              ],
+              "com.figma.hiddenFromPublishing": false
+            }
+          }
+        }
+      },
+      "Label": {
+        "Color": {
+          "Default": {
+            "$type": "color",
+            "$value": "{Text.On Accent}",
+            "$extensions": {
+              "com.figma.scopes": [
+                "TEXT_FILL"
+              ],
+              "com.figma.hiddenFromPublishing": false
+            }
+          },
+          "Hover": {
+            "$type": "color",
+            "$value": "{Text.On Accent}",
+            "$extensions": {
+              "com.figma.scopes": [
+                "TEXT_FILL"
+              ],
+              "com.figma.hiddenFromPublishing": false
+            }
+          },
+          "Pressed": {
+            "$type": "color",
+            "$value": "{Text.On Accent}",
+            "$extensions": {
+              "com.figma.scopes": [
+                "TEXT_FILL"
+              ],
+              "com.figma.hiddenFromPublishing": false
+            }
+          },
+          "Disabled": {
+            "$type": "color",
+            "$value": "{Text.Disabled}",
+            "$extensions": {
+              "com.figma.scopes": [
+                "TEXT_FILL"
+              ],
+              "com.figma.hiddenFromPublishing": false
+            }
+          }
+        }
+      },
+      "Icon": {
+        "Color": {
+          "Default": {
+            "$type": "color",
+            "$value": "{Icon.On Accent}",
+            "$extensions": {
+              "com.figma.scopes": [
+                "SHAPE_FILL",
+                "STROKE_COLOR"
+              ],
+              "com.figma.hiddenFromPublishing": false
+            }
+          },
+          "Hover": {
+            "$type": "color",
+            "$value": "{Icon.On Accent}",
+            "$extensions": {
+              "com.figma.scopes": [
+                "SHAPE_FILL",
+                "STROKE_COLOR"
+              ],
+              "com.figma.hiddenFromPublishing": false
+            }
+          },
+          "Pressed": {
+            "$type": "color",
+            "$value": "{Icon.On Accent}",
+            "$extensions": {
+              "com.figma.scopes": [
+                "SHAPE_FILL",
+                "STROKE_COLOR"
+              ],
+              "com.figma.hiddenFromPublishing": false
+            }
+          },
+          "Disabled": {
+            "$type": "color",
+            "$value": "{Icon.Disabled}",
+            "$extensions": {
+              "com.figma.scopes": [
+                "SHAPE_FILL",
+                "STROKE_COLOR"
+              ],
+              "com.figma.hiddenFromPublishing": false
+            }
+          }
+        }
+      }
+    },
+    "Danger": {
+      "Container": {
+        "Background": {
+          "Default": {
+            "$type": "color",
+            "$value": "{Fill.Danger.Default}",
+            "$extensions": {
+              "com.figma.scopes": [
+                "FRAME_FILL"
+              ],
+              "com.figma.hiddenFromPublishing": false
+            }
+          },
+          "Hover": {
+            "$type": "color",
+            "$value": "{Fill.Danger.Hover}",
+            "$extensions": {
+              "com.figma.scopes": [
+                "FRAME_FILL"
+              ],
+              "com.figma.hiddenFromPublishing": false
+            }
+          },
+          "Pressed": {
+            "$type": "color",
+            "$value": "{Fill.Danger.Pressed}",
+            "$extensions": {
+              "com.figma.scopes": [
+                "FRAME_FILL"
+              ],
+              "com.figma.hiddenFromPublishing": false
+            }
+          },
+          "Disabled": {
+            "$type": "color",
+            "$value": "{Fill.Disabled}",
+            "$extensions": {
+              "com.figma.scopes": [
+                "FRAME_FILL"
+              ],
+              "com.figma.hiddenFromPublishing": false
+            }
+          }
+        }
+      },
+      "Label": {
+        "Color": {
+          "Default": {
+            "$type": "color",
+            "$value": "{Text.On Danger}",
+            "$extensions": {
+              "com.figma.scopes": [
+                "TEXT_FILL"
+              ],
+              "com.figma.hiddenFromPublishing": false
+            }
+          },
+          "Hover": {
+            "$type": "color",
+            "$value": "{Text.On Danger}",
+            "$extensions": {
+              "com.figma.scopes": [
+                "TEXT_FILL"
+              ],
+              "com.figma.hiddenFromPublishing": false
+            }
+          },
+          "Pressed": {
+            "$type": "color",
+            "$value": "{Text.On Danger}",
+            "$extensions": {
+              "com.figma.scopes": [
+                "TEXT_FILL"
+              ],
+              "com.figma.hiddenFromPublishing": false
+            }
+          },
+          "Disabled": {
+            "$type": "color",
+            "$value": "{Text.Disabled}",
+            "$extensions": {
+              "com.figma.scopes": [
+                "TEXT_FILL"
+              ],
+              "com.figma.hiddenFromPublishing": false
+            }
+          }
+        }
+      },
+      "Icon": {
+        "Color": {
+          "Default": {
+            "$type": "color",
+            "$value": "{Icon.On Danger}",
+            "$extensions": {
+              "com.figma.scopes": [
+                "SHAPE_FILL",
+                "STROKE_COLOR"
+              ],
+              "com.figma.hiddenFromPublishing": false
+            }
+          },
+          "Hover": {
+            "$type": "color",
+            "$value": "{Icon.On Danger}",
+            "$extensions": {
+              "com.figma.scopes": [
+                "SHAPE_FILL",
+                "STROKE_COLOR"
+              ],
+              "com.figma.hiddenFromPublishing": false
+            }
+          },
+          "Pressed": {
+            "$type": "color",
+            "$value": "{Icon.On Danger}",
+            "$extensions": {
+              "com.figma.scopes": [
+                "SHAPE_FILL",
+                "STROKE_COLOR"
+              ],
+              "com.figma.hiddenFromPublishing": false
+            }
+          },
+          "Disabled": {
+            "$type": "color",
+            "$value": "{Icon.Disabled}",
+            "$extensions": {
+              "com.figma.scopes": [
+                "SHAPE_FILL",
+                "STROKE_COLOR"
+              ],
+              "com.figma.hiddenFromPublishing": false
+            }
+          }
+        }
+      }
+    },
+    "Sm": {
+      "Container": {
+        "Height": {
+          "$type": "dimension",
+          "$value": "{Control Height.Sm}",
+          "$extensions": {
+            "com.figma.scopes": [
+              "WIDTH_HEIGHT"
+            ],
+            "com.figma.hiddenFromPublishing": false
+          }
+        },
+        "Min Width": {
+          "$type": "dimension",
+          "$value": "{Control Min Width.Sm}",
+          "$extensions": {
+            "com.figma.scopes": [
+              "WIDTH_HEIGHT"
+            ],
+            "com.figma.hiddenFromPublishing": false
+          }
+        },
+        "Padding X": {
+          "$type": "dimension",
+          "$value": "{Inset.Sm}",
+          "$extensions": {
+            "com.figma.scopes": [
+              "GAP"
+            ],
+            "com.figma.hiddenFromPublishing": false
+          }
+        },
+        "Gap": {
+          "$type": "dimension",
+          "$value": "{Gap.Inline Tight}",
+          "$extensions": {
+            "com.figma.scopes": [
+              "GAP"
+            ],
+            "com.figma.hiddenFromPublishing": false
+          }
+        }
+      },
+      "Label": {
+        "Font Size": {
+          "$type": "dimension",
+          "$value": "{Font Size.Label Sm}",
+          "$extensions": {
+            "com.figma.scopes": [
+              "FONT_SIZE"
+            ],
+            "com.figma.hiddenFromPublishing": false
+          }
+        },
+        "Line Height": {
+          "$type": "dimension",
+          "$value": "{Line Height.Label Sm}",
+          "$extensions": {
+            "com.figma.scopes": [
+              "LINE_HEIGHT"
+            ],
+            "com.figma.hiddenFromPublishing": false
+          }
+        }
+      },
+      "Icon": {
+        "Size": {
+          "$type": "dimension",
+          "$value": "{Icon Size.Sm}",
+          "$extensions": {
+            "com.figma.scopes": [
+              "WIDTH_HEIGHT"
+            ],
+            "com.figma.hiddenFromPublishing": false
+          }
+        }
+      },
+      "Hit Area": {
+        "Min Height": {
+          "$type": "dimension",
+          "$value": "{Hit Area.Min}",
+          "$extensions": {
+            "com.figma.scopes": [
+              "WIDTH_HEIGHT"
+            ],
+            "com.figma.hiddenFromPublishing": false
+          }
+        }
+      }
+    },
+    "Md": {
+      "Container": {
+        "Height": {
+          "$type": "dimension",
+          "$value": "{Control Height.Md}",
+          "$extensions": {
+            "com.figma.scopes": [
+              "WIDTH_HEIGHT"
+            ],
+            "com.figma.hiddenFromPublishing": false
+          }
+        },
+        "Min Width": {
+          "$type": "dimension",
+          "$value": "{Control Min Width.Md}",
+          "$extensions": {
+            "com.figma.scopes": [
+              "WIDTH_HEIGHT"
+            ],
+            "com.figma.hiddenFromPublishing": false
+          }
+        },
+        "Padding X": {
+          "$type": "dimension",
+          "$value": "{Inset.Md}",
+          "$extensions": {
+            "com.figma.scopes": [
+              "GAP"
+            ],
+            "com.figma.hiddenFromPublishing": false
+          }
+        },
+        "Gap": {
+          "$type": "dimension",
+          "$value": "{Gap.Inline}",
+          "$extensions": {
+            "com.figma.scopes": [
+              "GAP"
+            ],
+            "com.figma.hiddenFromPublishing": false
+          }
+        }
+      },
+      "Label": {
+        "Font Size": {
+          "$type": "dimension",
+          "$value": "{Font Size.Label Md}",
+          "$extensions": {
+            "com.figma.scopes": [
+              "FONT_SIZE"
+            ],
+            "com.figma.hiddenFromPublishing": false
+          }
+        },
+        "Line Height": {
+          "$type": "dimension",
+          "$value": "{Line Height.Label Md}",
+          "$extensions": {
+            "com.figma.scopes": [
+              "LINE_HEIGHT"
+            ],
+            "com.figma.hiddenFromPublishing": false
+          }
+        }
+      },
+      "Icon": {
+        "Size": {
+          "$type": "dimension",
+          "$value": "{Icon Size.Md}",
+          "$extensions": {
+            "com.figma.scopes": [
+              "WIDTH_HEIGHT"
+            ],
+            "com.figma.hiddenFromPublishing": false
+          }
+        }
+      },
+      "Hit Area": {
+        "Min Height": {
+          "$type": "dimension",
+          "$value": "{Hit Area.Min}",
+          "$extensions": {
+            "com.figma.scopes": [
+              "WIDTH_HEIGHT"
+            ],
+            "com.figma.hiddenFromPublishing": false
+          }
+        }
+      }
+    },
+    "Lg": {
+      "Container": {
+        "Height": {
+          "$type": "dimension",
+          "$value": "{Control Height.Lg}",
+          "$extensions": {
+            "com.figma.scopes": [
+              "WIDTH_HEIGHT"
+            ],
+            "com.figma.hiddenFromPublishing": false
+          }
+        },
+        "Min Width": {
+          "$type": "dimension",
+          "$value": "{Control Min Width.Lg}",
+          "$extensions": {
+            "com.figma.scopes": [
+              "WIDTH_HEIGHT"
+            ],
+            "com.figma.hiddenFromPublishing": false
+          }
+        },
+        "Padding X": {
+          "$type": "dimension",
+          "$value": "{Inset.Lg}",
+          "$extensions": {
+            "com.figma.scopes": [
+              "GAP"
+            ],
+            "com.figma.hiddenFromPublishing": false
+          }
+        },
+        "Gap": {
+          "$type": "dimension",
+          "$value": "{Gap.Inline}",
+          "$extensions": {
+            "com.figma.scopes": [
+              "GAP"
+            ],
+            "com.figma.hiddenFromPublishing": false
+          }
+        }
+      },
+      "Label": {
+        "Font Size": {
+          "$type": "dimension",
+          "$value": "{Font Size.Label Lg}",
+          "$extensions": {
+            "com.figma.scopes": [
+              "FONT_SIZE"
+            ],
+            "com.figma.hiddenFromPublishing": false
+          }
+        },
+        "Line Height": {
+          "$type": "dimension",
+          "$value": "{Line Height.Label Lg}",
+          "$extensions": {
+            "com.figma.scopes": [
+              "LINE_HEIGHT"
+            ],
+            "com.figma.hiddenFromPublishing": false
+          }
+        }
+      },
+      "Icon": {
+        "Size": {
+          "$type": "dimension",
+          "$value": "{Icon Size.Lg}",
+          "$extensions": {
+            "com.figma.scopes": [
+              "WIDTH_HEIGHT"
+            ],
+            "com.figma.hiddenFromPublishing": false
+          }
+        }
+      },
+      "Hit Area": {
+        "Min Height": {
+          "$type": "dimension",
+          "$value": "{Hit Area.Min}",
+          "$extensions": {
+            "com.figma.scopes": [
+              "WIDTH_HEIGHT"
+            ],
+            "com.figma.hiddenFromPublishing": false
+          }
+        }
+      }
+    },
+    "Base": {
+      "Container": {
+        "Radius": {
+          "$type": "dimension",
+          "$value": "{Corner.Control}",
+          "$extensions": {
+            "com.figma.scopes": [
+              "CORNER_RADIUS"
+            ],
+            "com.figma.hiddenFromPublishing": false
+          }
+        }
+      },
+      "Label": {
+        "Font Family": {
+          "$type": "fontFamily",
+          "$value": "{Font Family.Base}",
+          "$extensions": {
+            "com.figma.scopes": [
+              "FONT_FAMILY"
+            ],
+            "com.figma.hiddenFromPublishing": false
+          }
+        },
+        "Font Weight": {
+          "$type": "fontWeight",
+          "$value": "{Font Weight.Label}",
+          "$extensions": {
+            "com.figma.scopes": [
+              "FONT_WEIGHT"
+            ],
+            "com.figma.hiddenFromPublishing": false
+          }
+        }
+      },
+      "Focus Ring": {
+        "Color": {
+          "$type": "color",
+          "$value": "{Border.Focus}",
+          "$extensions": {
+            "com.figma.scopes": [
+              "STROKE_COLOR"
+            ],
+            "com.figma.hiddenFromPublishing": false
+          }
+        },
+        "Width": {
+          "$type": "dimension",
+          "$value": "{Border Width.Focus Ring}",
+          "$extensions": {
+            "com.figma.scopes": [
+              "STROKE_FLOAT"
+            ],
+            "com.figma.hiddenFromPublishing": false
+          }
+        }
+      }
+    }
+  }
+}

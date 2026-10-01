@@ -1,0 +1,695 @@
+{
+  "Surface": {
+    "Default": {
+      "$type": "color",
+      "$value": "{Color.Gray.1}",
+      "$description": "화면의 기본 바탕",
+      "$extensions": {
+        "com.figma.scopes": [
+          "FRAME_FILL",
+          "SHAPE_FILL"
+        ],
+        "com.figma.hiddenFromPublishing": false
+      }
+    },
+    "Subtle": {
+      "$type": "color",
+      "$value": "{Color.Gray.2}",
+      "$description": "기본 바탕과 은은하게 구분되는 구역",
+      "$extensions": {
+        "com.figma.scopes": [
+          "FRAME_FILL",
+          "SHAPE_FILL"
+        ],
+        "com.figma.hiddenFromPublishing": false
+      }
+    },
+    "Raised": {
+      "$type": "color",
+      "$value": "{Color.White}",
+      "$description": "바탕 위로 올라온 면",
+      "$extensions": {
+        "com.figma.scopes": [
+          "FRAME_FILL",
+          "SHAPE_FILL"
+        ],
+        "com.figma.hiddenFromPublishing": false
+      }
+    },
+    "Overlay": {
+      "$type": "color",
+      "$value": "{Color.White}",
+      "$description": "다른 내용 위에 떠서 가리는 면",
+      "$extensions": {
+        "com.figma.scopes": [
+          "FRAME_FILL",
+          "SHAPE_FILL"
+        ],
+        "com.figma.hiddenFromPublishing": false
+      }
+    },
+    "Inverse": {
+      "$type": "color",
+      "$value": "{Color.Gray.12}",
+      "$description": "주변과 명도가 반전된 면",
+      "$extensions": {
+        "com.figma.scopes": [
+          "FRAME_FILL",
+          "SHAPE_FILL"
+        ],
+        "com.figma.hiddenFromPublishing": false
+      }
+    }
+  },
+  "Fill": {
+    "Primary": {
+      "Default": {
+        "$type": "color",
+        "$value": "{Color.Gray.12}",
+        "$description": "화면에서 대비가 가장 높은 주요 행동의 채움",
+        "$extensions": {
+          "com.figma.scopes": [
+            "FRAME_FILL",
+            "SHAPE_FILL"
+          ],
+          "com.figma.hiddenFromPublishing": false
+        }
+      },
+      "Hover": {
+        "$type": "color",
+        "$value": "{Color.Gray.11}",
+        "$description": "Fill/Primary/Default의 호버 상태",
+        "$extensions": {
+          "com.figma.scopes": [
+            "FRAME_FILL",
+            "SHAPE_FILL"
+          ],
+          "com.figma.hiddenFromPublishing": false
+        }
+      },
+      "Pressed": {
+        "$type": "color",
+        "$value": "{Color.Gray.10}",
+        "$description": "Fill/Primary/Default의 눌린 상태",
+        "$extensions": {
+          "com.figma.scopes": [
+            "FRAME_FILL",
+            "SHAPE_FILL"
+          ],
+          "com.figma.hiddenFromPublishing": false
+        }
+      }
+    },
+    "Accent": {
+      "Default": {
+        "$type": "color",
+        "$value": "{Color.Blue.9}",
+        "$description": "브랜드 색으로 시선을 끄는 행동의 채움",
+        "$extensions": {
+          "com.figma.scopes": [
+            "FRAME_FILL",
+            "SHAPE_FILL"
+          ],
+          "com.figma.hiddenFromPublishing": false
+        }
+      },
+      "Hover": {
+        "$type": "color",
+        "$value": "{Color.Blue.10}",
+        "$description": "Fill/Accent/Default의 호버 상태",
+        "$extensions": {
+          "com.figma.scopes": [
+            "FRAME_FILL",
+            "SHAPE_FILL"
+          ],
+          "com.figma.hiddenFromPublishing": false
+        }
+      },
+      "Pressed": {
+        "$type": "color",
+        "$value": "{Color.Blue.11}",
+        "$description": "Fill/Accent/Default의 눌린 상태",
+        "$extensions": {
+          "com.figma.scopes": [
+            "FRAME_FILL",
+            "SHAPE_FILL"
+          ],
+          "com.figma.hiddenFromPublishing": false
+        }
+      }
+    },
+    "Danger": {
+      "Default": {
+        "$type": "color",
+        "$value": "{Color.Red.9}",
+        "$description": "되돌리기 어려운 파괴적 행동의 채움",
+        "$extensions": {
+          "com.figma.scopes": [
+            "FRAME_FILL",
+            "SHAPE_FILL"
+          ],
+          "com.figma.hiddenFromPublishing": false
+        }
+      },
+      "Hover": {
+        "$type": "color",
+        "$value": "{Color.Red.10}",
+        "$description": "Fill/Danger/Default의 호버 상태",
+        "$extensions": {
+          "com.figma.scopes": [
+            "FRAME_FILL",
+            "SHAPE_FILL"
+          ],
+          "com.figma.hiddenFromPublishing": false
+        }
+      },
+      "Pressed": {
+        "$type": "color",
+        "$value": "{Color.Red.11}",
+        "$description": "Fill/Danger/Default의 눌린 상태",
+        "$extensions": {
+          "com.figma.scopes": [
+            "FRAME_FILL",
+            "SHAPE_FILL"
+          ],
+          "com.figma.hiddenFromPublishing": false
+        }
+      }
+    },
+    "Primary Subtle": {
+      "Default": {
+        "$type": "color",
+        "$value": "{Color.Gray.3}",
+        "$description": "중립적인 보조 요소의 채움",
+        "$extensions": {
+          "com.figma.scopes": [
+            "FRAME_FILL",
+            "SHAPE_FILL"
+          ],
+          "com.figma.hiddenFromPublishing": false
+        }
+      },
+      "Hover": {
+        "$type": "color",
+        "$value": "{Color.Gray.4}",
+        "$description": "Fill/Primary Subtle/Default의 호버 상태",
+        "$extensions": {
+          "com.figma.scopes": [
+            "FRAME_FILL",
+            "SHAPE_FILL"
+          ],
+          "com.figma.hiddenFromPublishing": false
+        }
+      },
+      "Selected": {
+        "$type": "color",
+        "$value": "{Color.Gray.5}",
+        "$description": "선택이 유지되는 중립 요소의 채움",
+        "$extensions": {
+          "com.figma.scopes": [
+            "FRAME_FILL",
+            "SHAPE_FILL"
+          ],
+          "com.figma.hiddenFromPublishing": false
+        }
+      }
+    },
+    "Accent Subtle": {
+      "Default": {
+        "$type": "color",
+        "$value": "{Color.Blue.3}",
+        "$description": "브랜드 색이 은은하게 들어간 채움",
+        "$extensions": {
+          "com.figma.scopes": [
+            "FRAME_FILL",
+            "SHAPE_FILL"
+          ],
+          "com.figma.hiddenFromPublishing": false
+        }
+      },
+      "Hover": {
+        "$type": "color",
+        "$value": "{Color.Blue.4}",
+        "$description": "Fill/Accent Subtle/Default의 호버 상태",
+        "$extensions": {
+          "com.figma.scopes": [
+            "FRAME_FILL",
+            "SHAPE_FILL"
+          ],
+          "com.figma.hiddenFromPublishing": false
+        }
+      },
+      "Selected": {
+        "$type": "color",
+        "$value": "{Color.Blue.5}",
+        "$description": "브랜드 색으로 강조된 선택 상태의 채움",
+        "$extensions": {
+          "com.figma.scopes": [
+            "FRAME_FILL",
+            "SHAPE_FILL"
+          ],
+          "com.figma.hiddenFromPublishing": false
+        }
+      }
+    },
+    "Danger Subtle": {
+      "Default": {
+        "$type": "color",
+        "$value": "{Color.Red.3}",
+        "$description": "오류·위험을 알리는 은은한 채움",
+        "$extensions": {
+          "com.figma.scopes": [
+            "FRAME_FILL",
+            "SHAPE_FILL"
+          ],
+          "com.figma.hiddenFromPublishing": false
+        }
+      }
+    },
+    "Success Subtle": {
+      "Default": {
+        "$type": "color",
+        "$value": "{Color.Green.3}",
+        "$description": "완료·성공을 알리는 은은한 채움",
+        "$extensions": {
+          "com.figma.scopes": [
+            "FRAME_FILL",
+            "SHAPE_FILL"
+          ],
+          "com.figma.hiddenFromPublishing": false
+        }
+      }
+    },
+    "Warning Subtle": {
+      "Default": {
+        "$type": "color",
+        "$value": "{Color.Amber.3}",
+        "$description": "주의를 알리는 은은한 채움",
+        "$extensions": {
+          "com.figma.scopes": [
+            "FRAME_FILL",
+            "SHAPE_FILL"
+          ],
+          "com.figma.hiddenFromPublishing": false
+        }
+      }
+    },
+    "Disabled": {
+      "$type": "color",
+      "$value": "{Color.Gray.3}",
+      "$description": "비활성 요소의 채움 (모든 톤 공통)",
+      "$extensions": {
+        "com.figma.scopes": [
+          "FRAME_FILL",
+          "SHAPE_FILL"
+        ],
+        "com.figma.hiddenFromPublishing": false
+      }
+    }
+  },
+  "Text": {
+    "Primary": {
+      "$type": "color",
+      "$value": "{Color.Gray.12}",
+      "$description": "사용자가 읽어야 하는 기본 텍스트",
+      "$extensions": {
+        "com.figma.scopes": [
+          "TEXT_FILL"
+        ],
+        "com.figma.hiddenFromPublishing": false
+      }
+    },
+    "Secondary": {
+      "$type": "color",
+      "$value": "{Color.Gray.11}",
+      "$description": "주 텍스트를 보조하는 텍스트",
+      "$extensions": {
+        "com.figma.scopes": [
+          "TEXT_FILL"
+        ],
+        "com.figma.hiddenFromPublishing": false
+      }
+    },
+    "Tertiary": {
+      "$type": "color",
+      "$value": "{Color.Gray.10}",
+      "$description": "가장 낮은 위계의 읽어야 하는 텍스트",
+      "$extensions": {
+        "com.figma.scopes": [
+          "TEXT_FILL"
+        ],
+        "com.figma.hiddenFromPublishing": false
+      }
+    },
+    "Disabled": {
+      "$type": "color",
+      "$value": "{Color.Gray.8}",
+      "$description": "비활성 요소의 텍스트",
+      "$extensions": {
+        "com.figma.scopes": [
+          "TEXT_FILL"
+        ],
+        "com.figma.hiddenFromPublishing": false
+      }
+    },
+    "Inverse": {
+      "$type": "color",
+      "$value": "{Color.Gray.1}",
+      "$description": "반전된 면 위의 텍스트",
+      "$extensions": {
+        "com.figma.scopes": [
+          "TEXT_FILL"
+        ],
+        "com.figma.hiddenFromPublishing": false
+      }
+    },
+    "On Primary": {
+      "$type": "color",
+      "$value": "{Color.White}",
+      "$description": "Fill/Primary/* 위의 텍스트",
+      "$extensions": {
+        "com.figma.scopes": [
+          "TEXT_FILL"
+        ],
+        "com.figma.hiddenFromPublishing": false
+      }
+    },
+    "On Accent": {
+      "$type": "color",
+      "$value": "{Color.White}",
+      "$description": "Fill/Accent/* 위의 텍스트",
+      "$extensions": {
+        "com.figma.scopes": [
+          "TEXT_FILL"
+        ],
+        "com.figma.hiddenFromPublishing": false
+      }
+    },
+    "On Danger": {
+      "$type": "color",
+      "$value": "{Color.White}",
+      "$description": "Fill/Danger/* 위의 텍스트",
+      "$extensions": {
+        "com.figma.scopes": [
+          "TEXT_FILL"
+        ],
+        "com.figma.hiddenFromPublishing": false
+      }
+    },
+    "Accent": {
+      "$type": "color",
+      "$value": "{Color.Blue.11}",
+      "$description": "브랜드 색으로 강조한 텍스트",
+      "$extensions": {
+        "com.figma.scopes": [
+          "TEXT_FILL"
+        ],
+        "com.figma.hiddenFromPublishing": false
+      }
+    },
+    "Link": {
+      "$type": "color",
+      "$value": "{Color.Blue.11}",
+      "$description": "누르면 이동하는 텍스트",
+      "$extensions": {
+        "com.figma.scopes": [
+          "TEXT_FILL"
+        ],
+        "com.figma.hiddenFromPublishing": false
+      }
+    },
+    "Danger": {
+      "$type": "color",
+      "$value": "{Color.Red.11}",
+      "$description": "오류와 위험을 알리는 텍스트",
+      "$extensions": {
+        "com.figma.scopes": [
+          "TEXT_FILL"
+        ],
+        "com.figma.hiddenFromPublishing": false
+      }
+    },
+    "Success": {
+      "$type": "color",
+      "$value": "{Color.Green.11}",
+      "$description": "완료와 성공을 알리는 텍스트",
+      "$extensions": {
+        "com.figma.scopes": [
+          "TEXT_FILL"
+        ],
+        "com.figma.hiddenFromPublishing": false
+      }
+    },
+    "Warning": {
+      "$type": "color",
+      "$value": "{Color.Amber.11}",
+      "$description": "주의를 알리는 텍스트",
+      "$extensions": {
+        "com.figma.scopes": [
+          "TEXT_FILL"
+        ],
+        "com.figma.hiddenFromPublishing": false
+      }
+    }
+  },
+  "Icon": {
+    "Primary": {
+      "$type": "color",
+      "$value": "{Color.Gray.12}",
+      "$description": "기본 아이콘",
+      "$extensions": {
+        "com.figma.scopes": [
+          "SHAPE_FILL",
+          "STROKE_COLOR"
+        ],
+        "com.figma.hiddenFromPublishing": false
+      }
+    },
+    "Secondary": {
+      "$type": "color",
+      "$value": "{Color.Gray.11}",
+      "$description": "보조 아이콘",
+      "$extensions": {
+        "com.figma.scopes": [
+          "SHAPE_FILL",
+          "STROKE_COLOR"
+        ],
+        "com.figma.hiddenFromPublishing": false
+      }
+    },
+    "Disabled": {
+      "$type": "color",
+      "$value": "{Color.Gray.8}",
+      "$description": "비활성 요소의 아이콘",
+      "$extensions": {
+        "com.figma.scopes": [
+          "SHAPE_FILL",
+          "STROKE_COLOR"
+        ],
+        "com.figma.hiddenFromPublishing": false
+      }
+    },
+    "Inverse": {
+      "$type": "color",
+      "$value": "{Color.Gray.1}",
+      "$description": "반전된 면 위의 아이콘",
+      "$extensions": {
+        "com.figma.scopes": [
+          "SHAPE_FILL",
+          "STROKE_COLOR"
+        ],
+        "com.figma.hiddenFromPublishing": false
+      }
+    },
+    "On Primary": {
+      "$type": "color",
+      "$value": "{Color.White}",
+      "$description": "Fill/Primary/* 위의 아이콘",
+      "$extensions": {
+        "com.figma.scopes": [
+          "SHAPE_FILL",
+          "STROKE_COLOR"
+        ],
+        "com.figma.hiddenFromPublishing": false
+      }
+    },
+    "On Accent": {
+      "$type": "color",
+      "$value": "{Color.White}",
+      "$description": "Fill/Accent/* 위의 아이콘",
+      "$extensions": {
+        "com.figma.scopes": [
+          "SHAPE_FILL",
+          "STROKE_COLOR"
+        ],
+        "com.figma.hiddenFromPublishing": false
+      }
+    },
+    "On Danger": {
+      "$type": "color",
+      "$value": "{Color.White}",
+      "$description": "Fill/Danger/* 위의 아이콘",
+      "$extensions": {
+        "com.figma.scopes": [
+          "SHAPE_FILL",
+          "STROKE_COLOR"
+        ],
+        "com.figma.hiddenFromPublishing": false
+      }
+    },
+    "Accent": {
+      "$type": "color",
+      "$value": "{Color.Blue.11}",
+      "$description": "브랜드 색으로 강조한 아이콘",
+      "$extensions": {
+        "com.figma.scopes": [
+          "SHAPE_FILL",
+          "STROKE_COLOR"
+        ],
+        "com.figma.hiddenFromPublishing": false
+      }
+    },
+    "Danger": {
+      "$type": "color",
+      "$value": "{Color.Red.11}",
+      "$description": "오류와 위험을 알리는 아이콘",
+      "$extensions": {
+        "com.figma.scopes": [
+          "SHAPE_FILL",
+          "STROKE_COLOR"
+        ],
+        "com.figma.hiddenFromPublishing": false
+      }
+    },
+    "Success": {
+      "$type": "color",
+      "$value": "{Color.Green.11}",
+      "$description": "완료와 성공을 알리는 아이콘",
+      "$extensions": {
+        "com.figma.scopes": [
+          "SHAPE_FILL",
+          "STROKE_COLOR"
+        ],
+        "com.figma.hiddenFromPublishing": false
+      }
+    },
+    "Warning": {
+      "$type": "color",
+      "$value": "{Color.Amber.11}",
+      "$description": "주의를 알리는 아이콘",
+      "$extensions": {
+        "com.figma.scopes": [
+          "SHAPE_FILL",
+          "STROKE_COLOR"
+        ],
+        "com.figma.hiddenFromPublishing": false
+      }
+    }
+  },
+  "Border": {
+    "Subtle": {
+      "$type": "color",
+      "$value": "{Color.Gray.6}",
+      "$description": "같은 면 안을 나누는 가장 약한 선",
+      "$extensions": {
+        "com.figma.scopes": [
+          "STROKE_COLOR"
+        ],
+        "com.figma.hiddenFromPublishing": false
+      }
+    },
+    "Default": {
+      "$type": "color",
+      "$value": "{Color.Gray.7}",
+      "$description": "면과 면의 경계를 보여주는 외곽선",
+      "$extensions": {
+        "com.figma.scopes": [
+          "STROKE_COLOR"
+        ],
+        "com.figma.hiddenFromPublishing": false
+      }
+    },
+    "Strong": {
+      "$type": "color",
+      "$value": "{Color.Gray.9}",
+      "$description": "경계를 식별해야 하는 요소의 외곽선",
+      "$extensions": {
+        "com.figma.scopes": [
+          "STROKE_COLOR"
+        ],
+        "com.figma.hiddenFromPublishing": false
+      }
+    },
+    "Focus": {
+      "$type": "color",
+      "$value": "{Color.Blue.9}",
+      "$description": "키보드 포커스 링",
+      "$extensions": {
+        "com.figma.scopes": [
+          "STROKE_COLOR"
+        ],
+        "com.figma.hiddenFromPublishing": false
+      }
+    },
+    "Accent": {
+      "$type": "color",
+      "$value": "{Color.Blue.9}",
+      "$description": "선택된 요소의 외곽선",
+      "$extensions": {
+        "com.figma.scopes": [
+          "STROKE_COLOR"
+        ],
+        "com.figma.hiddenFromPublishing": false
+      }
+    },
+    "Danger": {
+      "$type": "color",
+      "$value": "{Color.Red.9}",
+      "$description": "오류 상태의 외곽선",
+      "$extensions": {
+        "com.figma.scopes": [
+          "STROKE_COLOR"
+        ],
+        "com.figma.hiddenFromPublishing": false
+      }
+    }
+  },
+  "Overlay": {
+    "Scrim": {
+      "$type": "color",
+      "$value": "{Color.Black Alpha.9}",
+      "$description": "떠 있는 면 뒤의 화면을 어둡게 가리는 막",
+      "$extensions": {
+        "com.figma.scopes": [
+          "FRAME_FILL",
+          "SHAPE_FILL"
+        ],
+        "com.figma.hiddenFromPublishing": false
+      }
+    }
+  },
+  "Shadow": {
+    "Raised": {
+      "$type": "color",
+      "$value": "{Color.Black Alpha.3}",
+      "$description": "올라온 면의 그림자 색",
+      "$extensions": {
+        "com.figma.scopes": [
+          "EFFECT_COLOR"
+        ],
+        "com.figma.hiddenFromPublishing": false
+      }
+    },
+    "Overlay": {
+      "$type": "color",
+      "$value": "{Color.Black Alpha.6}",
+      "$description": "떠 있는 면의 그림자 색",
+      "$extensions": {
+        "com.figma.scopes": [
+          "EFFECT_COLOR"
+        ],
+        "com.figma.hiddenFromPublishing": false
+      }
+    }
+  }
+}

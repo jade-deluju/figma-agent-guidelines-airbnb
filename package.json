@@ -1,0 +1,15 @@
+{
+  "name": "figma-agent-guidelines",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Figma 배리어블 규칙을 AI 에이전트가 읽을 수 있게 관리하는 시작 키트",
+  "scripts": {
+    "tokens:sync": "node scripts/tokens.mjs sync",
+    "tokens:check": "node scripts/tokens.mjs check",
+    "tokens:build": "node scripts/tokens.mjs build"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}

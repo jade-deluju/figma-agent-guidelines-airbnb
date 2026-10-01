@@ -1,0 +1,1220 @@
+{
+ "systems": {
+  "M3": "@material/web 2.5.0 (tokens v0_192) + developer.android.com Material 개요",
+  "Carbon": "@carbon/styles 1.116.0",
+  "Fluent 2": "@fluentui/react-components 9.74.9 (react-* 9.x)",
+  "Spectrum": "@adobe/spectrum-tokens 15.4.1 (desktop 스케일)",
+  "Polaris": "@shopify/polaris 13.9.5 (데스크톱 미디어 쿼리 값)",
+  "Primer": "@primer/primitives 11.10.0, @primer/react 38.40.0",
+  "Ant Design": "antd 6.6.5 (기본 테마 계산값)"
+ },
+ "inventory": [
+  {
+   "component": "Button",
+   "ko": "버튼",
+   "count": 7,
+   "systems": {
+    "M3": "Buttons",
+    "Carbon": "button",
+    "Fluent 2": "Button",
+    "Spectrum": "button",
+    "Polaris": "Button",
+    "Primer": "Button",
+    "Ant Design": "Button"
+   },
+   "recipe": "수치"
+  },
+  {
+   "component": "Text field",
+   "ko": "텍스트 필드",
+   "count": 7,
+   "systems": {
+    "M3": "Text fields",
+    "Carbon": "text-input",
+    "Fluent 2": "Input",
+    "Spectrum": "text-field",
+    "Polaris": "TextField",
+    "Primer": "TextInput",
+    "Ant Design": "Input"
+   },
+   "recipe": "수치"
+  },
+  {
+   "component": "Select",
+   "ko": "셀렉트",
+   "count": 7,
+   "systems": {
+    "M3": "select",
+    "Carbon": "select, dropdown",
+    "Fluent 2": "Select",
+    "Spectrum": "picker",
+    "Polaris": "Select",
+    "Primer": "Select",
+    "Ant Design": "Select"
+   },
+   "recipe": "파생"
+  },
+  {
+   "component": "Combobox",
+   "ko": "콤보박스",
+   "count": 7,
+   "systems": {
+    "M3": "autocomplete",
+    "Carbon": "combo-box",
+    "Fluent 2": "Combobox",
+    "Spectrum": "combo-box",
+    "Polaris": "Combobox, Autocomplete",
+    "Primer": "Autocomplete",
+    "Ant Design": "AutoComplete"
+   },
+   "recipe": "파생"
+  },
+  {
+   "component": "Checkbox",
+   "ko": "체크박스",
+   "count": 7,
+   "systems": {
+    "M3": "Checkbox",
+    "Carbon": "checkbox",
+    "Fluent 2": "Checkbox",
+    "Spectrum": "checkbox",
+    "Polaris": "Checkbox",
+    "Primer": "Checkbox",
+    "Ant Design": "Checkbox"
+   },
+   "recipe": "수치"
+  },
+  {
+   "component": "Radio",
+   "ko": "라디오",
+   "count": 7,
+   "systems": {
+    "M3": "Radio button",
+    "Carbon": "radio-button",
+    "Fluent 2": "Radio",
+    "Spectrum": "radio-button",
+    "Polaris": "RadioButton",
+    "Primer": "Radio",
+    "Ant Design": "Radio"
+   },
+   "recipe": "수치"
+  },
+  {
+   "component": "Tooltip",
+   "ko": "툴팁",
+   "count": 7,
+   "systems": {
+    "M3": "Tooltips",
+    "Carbon": "tooltip",
+    "Fluent 2": "Tooltip",
+    "Spectrum": "tooltip",
+    "Polaris": "Tooltip",
+    "Primer": "Tooltip",
+    "Ant Design": "Tooltip"
+   },
+   "recipe": "수치"
+  },
+  {
+   "component": "Dialog",
+   "ko": "다이얼로그(모달)",
+   "count": 7,
+   "systems": {
+    "M3": "Dialogs",
+    "Carbon": "modal",
+    "Fluent 2": "Dialog",
+    "Spectrum": "standard-dialog",
+    "Polaris": "Modal",
+    "Primer": "Dialog",
+    "Ant Design": "Modal"
+   },
+   "recipe": "수치"
+  },
+  {
+   "component": "Banner",
+   "ko": "배너(인라인 알림)",
+   "count": 7,
+   "systems": {
+    "M3": "banner",
+    "Carbon": "notification (inline)",
+    "Fluent 2": "MessageBar",
+    "Spectrum": "alert-banner, in-line-alert",
+    "Polaris": "Banner",
+    "Primer": "Banner",
+    "Ant Design": "Alert"
+   },
+   "recipe": "구조"
+  },
+  {
+   "component": "Tabs",
+   "ko": "탭",
+   "count": 7,
+   "systems": {
+    "M3": "Tabs",
+    "Carbon": "tabs",
+    "Fluent 2": "Tabs",
+    "Spectrum": "tabs",
+    "Polaris": "Tabs",
+    "Primer": "UnderlineNav",
+    "Ant Design": "Tabs"
+   },
+   "recipe": "수치"
+  },
+  {
+   "component": "Side navigation",
+   "ko": "사이드 내비게이션",
+   "count": 7,
+   "systems": {
+    "M3": "Navigation drawer",
+    "Carbon": "ui-shell (side-nav)",
+    "Fluent 2": "Nav",
+    "Spectrum": "side-navigation",
+    "Polaris": "Navigation",
+    "Primer": "NavList",
+    "Ant Design": "Menu (sider)"
+   },
+   "recipe": "구조"
+  },
+  {
+   "component": "Card",
+   "ko": "카드",
+   "count": 7,
+   "systems": {
+    "M3": "Cards",
+    "Carbon": "tile, card",
+    "Fluent 2": "Card",
+    "Spectrum": "card",
+    "Polaris": "Card",
+    "Primer": "Card",
+    "Ant Design": "Card"
+   },
+   "recipe": "구조"
+  },
+  {
+   "component": "List",
+   "ko": "리스트",
+   "count": 7,
+   "systems": {
+    "M3": "Lists",
+    "Carbon": "contained-list",
+    "Fluent 2": "List",
+    "Spectrum": "list-view",
+    "Polaris": "ResourceList",
+    "Primer": "ActionList",
+    "Ant Design": "List"
+   },
+   "recipe": "구조"
+  },
+  {
+   "component": "Menu",
+   "ko": "메뉴",
+   "count": 7,
+   "systems": {
+    "M3": "menu",
+    "Carbon": "menu, overflow-menu",
+    "Fluent 2": "Menu",
+    "Spectrum": "menu",
+    "Polaris": "ActionList, ActionMenu",
+    "Primer": "ActionMenu",
+    "Ant Design": "Dropdown"
+   },
+   "recipe": "수치"
+  },
+  {
+   "component": "Table",
+   "ko": "테이블",
+   "count": 7,
+   "systems": {
+    "M3": "data-table",
+    "Carbon": "data-table",
+    "Fluent 2": "Table",
+    "Spectrum": "table",
+    "Polaris": "DataTable, IndexTable",
+    "Primer": "DataTable",
+    "Ant Design": "Table"
+   },
+   "recipe": "구조"
+  },
+  {
+   "component": "Progress bar",
+   "ko": "진행 막대",
+   "count": 7,
+   "systems": {
+    "M3": "Progress indicators (linear)",
+    "Carbon": "progress-bar",
+    "Fluent 2": "ProgressBar",
+    "Spectrum": "progress-bar",
+    "Polaris": "ProgressBar",
+    "Primer": "ProgressBar",
+    "Ant Design": "Progress"
+   },
+   "recipe": "수치"
+  },
+  {
+   "component": "Spinner",
+   "ko": "스피너",
+   "count": 7,
+   "systems": {
+    "M3": "Progress indicators (circular)",
+    "Carbon": "loading",
+    "Fluent 2": "Spinner",
+    "Spectrum": "progress-circle",
+    "Polaris": "Spinner",
+    "Primer": "Spinner",
+    "Ant Design": "Spin"
+   },
+   "recipe": "수치"
+  },
+  {
+   "component": "Chip / Tag",
+   "ko": "칩·태그",
+   "count": 7,
+   "systems": {
+    "M3": "Chips",
+    "Carbon": "tag",
+    "Fluent 2": "Tag",
+    "Spectrum": "tag",
+    "Polaris": "Tag",
+    "Primer": "Token",
+    "Ant Design": "Tag"
+   },
+   "recipe": "수치"
+  },
+  {
+   "component": "Switch",
+   "ko": "스위치",
+   "count": 6,
+   "systems": {
+    "M3": "Switch",
+    "Carbon": "toggle",
+    "Fluent 2": "Switch",
+    "Spectrum": "switch",
+    "Primer": "ToggleSwitch",
+    "Ant Design": "Switch"
+   },
+   "recipe": "수치"
+  },
+  {
+   "component": "Slider",
+   "ko": "슬라이더",
+   "count": 6,
+   "systems": {
+    "M3": "Sliders",
+    "Carbon": "slider",
+    "Fluent 2": "Slider",
+    "Spectrum": "slider",
+    "Polaris": "RangeSlider",
+    "Ant Design": "Slider"
+   },
+   "recipe": "구조"
+  },
+  {
+   "component": "Badge",
+   "ko": "배지(숫자)",
+   "count": 6,
+   "systems": {
+    "M3": "Badges",
+    "Carbon": "badge-indicator",
+    "Fluent 2": "Badge",
+    "Polaris": "Badge",
+    "Primer": "CounterLabel",
+    "Ant Design": "Badge"
+   },
+   "recipe": "구조"
+  },
+  {
+   "component": "Avatar",
+   "ko": "아바타",
+   "count": 6,
+   "systems": {
+    "Carbon": "user-avatar",
+    "Fluent 2": "Avatar",
+    "Spectrum": "avatar",
+    "Polaris": "Avatar",
+    "Primer": "Avatar",
+    "Ant Design": "Avatar"
+   },
+   "recipe": "구조"
+  },
+  {
+   "component": "Popover",
+   "ko": "팝오버",
+   "count": 6,
+   "systems": {
+    "Carbon": "popover",
+    "Fluent 2": "Popover",
+    "Spectrum": "popover",
+    "Polaris": "Popover",
+    "Primer": "Popover",
+    "Ant Design": "Popover"
+   },
+   "recipe": "구조"
+  },
+  {
+   "component": "Sheet / Drawer",
+   "ko": "시트·드로어",
+   "count": 6,
+   "systems": {
+    "M3": "Bottom/Side sheets",
+    "Carbon": "side-panel",
+    "Fluent 2": "Drawer",
+    "Spectrum": "tray",
+    "Polaris": "Sheet",
+    "Ant Design": "Drawer"
+   },
+   "recipe": "구조"
+  },
+  {
+   "component": "Toast",
+   "ko": "토스트(스낵바)",
+   "count": 6,
+   "systems": {
+    "M3": "Snackbar",
+    "Carbon": "notification (toast)",
+    "Fluent 2": "Toast",
+    "Spectrum": "toast",
+    "Polaris": "Toast",
+    "Ant Design": "message, notification"
+   },
+   "recipe": "수치"
+  },
+  {
+   "component": "Breadcrumb",
+   "ko": "브레드크럼",
+   "count": 6,
+   "systems": {
+    "Carbon": "breadcrumb",
+    "Fluent 2": "Breadcrumb",
+    "Spectrum": "breadcrumbs",
+    "Polaris": "Breadcrumbs",
+    "Primer": "Breadcrumbs",
+    "Ant Design": "Breadcrumb"
+   },
+   "recipe": "구조"
+  },
+  {
+   "component": "Segmented control",
+   "ko": "세그먼트 컨트롤",
+   "count": 5,
+   "systems": {
+    "M3": "Segmented buttons",
+    "Carbon": "content-switcher",
+    "Spectrum": "segmented-control",
+    "Primer": "SegmentedControl",
+    "Ant Design": "Segmented"
+   },
+   "recipe": "파생"
+  },
+  {
+   "component": "Accordion",
+   "ko": "아코디언",
+   "count": 5,
+   "systems": {
+    "Carbon": "accordion",
+    "Fluent 2": "Accordion",
+    "Spectrum": "accordion",
+    "Polaris": "Collapsible",
+    "Ant Design": "Collapse"
+   },
+   "recipe": "구조"
+  },
+  {
+   "component": "Divider",
+   "ko": "구분선",
+   "count": 5,
+   "systems": {
+    "M3": "Divider",
+    "Fluent 2": "Divider",
+    "Spectrum": "divider",
+    "Polaris": "Divider",
+    "Ant Design": "Divider"
+   },
+   "recipe": "구조"
+  },
+  {
+   "component": "Skeleton",
+   "ko": "스켈레톤",
+   "count": 5,
+   "systems": {
+    "Carbon": "skeleton",
+    "Fluent 2": "Skeleton",
+    "Polaris": "SkeletonBodyText 등",
+    "Primer": "Skeleton",
+    "Ant Design": "Skeleton"
+   },
+   "recipe": "구조"
+  },
+  {
+   "component": "Date picker",
+   "ko": "날짜 선택",
+   "count": 5,
+   "systems": {
+    "M3": "date-picker",
+    "Carbon": "date-picker",
+    "Spectrum": "date-picker",
+    "Polaris": "DatePicker",
+    "Ant Design": "DatePicker"
+   },
+   "recipe": "구조"
+  },
+  {
+   "component": "Tree view",
+   "ko": "트리",
+   "count": 5,
+   "systems": {
+    "Carbon": "treeview",
+    "Fluent 2": "Tree",
+    "Spectrum": "tree-view",
+    "Primer": "TreeView",
+    "Ant Design": "Tree"
+   },
+   "recipe": "구조"
+  },
+  {
+   "component": "Form field",
+   "ko": "폼 필드(라벨·도움말)",
+   "count": 5,
+   "systems": {
+    "Fluent 2": "Field",
+    "Spectrum": "field-label, help-text",
+    "Polaris": "Labelled, InlineError",
+    "Primer": "FormControl",
+    "Ant Design": "Form.Item"
+   },
+   "recipe": "구조"
+  },
+  {
+   "component": "Stack",
+   "ko": "스택(레이아웃)",
+   "count": 5,
+   "systems": {
+    "Carbon": "stack",
+    "Polaris": "BlockStack, InlineStack",
+    "Primer": "Stack",
+    "Ant Design": "Space, Flex",
+    "Spectrum": "stack-item"
+   },
+   "recipe": "구조"
+  },
+  {
+   "component": "Text area",
+   "ko": "텍스트 영역",
+   "count": 4,
+   "systems": {
+    "Carbon": "text-area",
+    "Fluent 2": "Textarea",
+    "Spectrum": "text-area",
+    "Primer": "Textarea"
+   },
+   "recipe": "파생"
+  },
+  {
+   "component": "Search field",
+   "ko": "검색 필드",
+   "count": 4,
+   "systems": {
+    "M3": "search-bar",
+    "Carbon": "search",
+    "Fluent 2": "SearchBox",
+    "Spectrum": "search-field"
+   },
+   "recipe": "파생"
+  },
+  {
+   "component": "Number field",
+   "ko": "숫자 입력",
+   "count": 4,
+   "systems": {
+    "Carbon": "number-input",
+    "Fluent 2": "SpinButton",
+    "Spectrum": "number-field",
+    "Ant Design": "InputNumber"
+   },
+   "recipe": "파생"
+  },
+  {
+   "component": "Top app bar",
+   "ko": "상단 앱 바",
+   "count": 4,
+   "systems": {
+    "M3": "Top app bar",
+    "Carbon": "ui-shell (header)",
+    "Polaris": "TopBar",
+    "Primer": "PageHeader"
+   },
+   "recipe": "구조"
+  },
+  {
+   "component": "Pagination",
+   "ko": "페이지네이션",
+   "count": 4,
+   "systems": {
+    "Carbon": "pagination",
+    "Polaris": "Pagination",
+    "Primer": "Pagination",
+    "Ant Design": "Pagination"
+   },
+   "recipe": "구조"
+  },
+  {
+   "component": "Empty state",
+   "ko": "빈 상태",
+   "count": 4,
+   "systems": {
+    "Spectrum": "illustrated-message",
+    "Polaris": "EmptyState",
+    "Primer": "Blankslate",
+    "Ant Design": "Empty"
+   },
+   "recipe": "구조"
+  },
+  {
+   "component": "Time picker",
+   "ko": "시간 선택",
+   "count": 4,
+   "systems": {
+    "M3": "time-picker",
+    "Carbon": "time-picker",
+    "Spectrum": "time-field",
+    "Ant Design": "TimePicker"
+   },
+   "recipe": "구조"
+  },
+  {
+   "component": "File upload",
+   "ko": "파일 업로드",
+   "count": 4,
+   "systems": {
+    "Carbon": "file-uploader",
+    "Spectrum": "drop-zone",
+    "Polaris": "DropZone",
+    "Ant Design": "Upload"
+   },
+   "recipe": "구조"
+  },
+  {
+   "component": "Link",
+   "ko": "링크",
+   "count": 4,
+   "systems": {
+    "Carbon": "link",
+    "Fluent 2": "Link",
+    "Polaris": "Link",
+    "Primer": "Link"
+   },
+   "recipe": "구조"
+  },
+  {
+   "component": "Image / Thumbnail",
+   "ko": "이미지·썸네일",
+   "count": 4,
+   "systems": {
+    "Fluent 2": "Image",
+    "Spectrum": "thumbnail",
+    "Polaris": "Thumbnail",
+    "Ant Design": "Image"
+   },
+   "recipe": "구조"
+  },
+  {
+   "component": "Color picker",
+   "ko": "색 선택",
+   "count": 4,
+   "systems": {
+    "Fluent 2": "ColorPicker",
+    "Spectrum": "color-area 등",
+    "Polaris": "ColorPicker",
+    "Ant Design": "ColorPicker"
+   },
+   "recipe": "구조"
+  },
+  {
+   "component": "Floating action button",
+   "ko": "플로팅 액션 버튼",
+   "count": 3,
+   "systems": {
+    "M3": "FAB",
+    "Spectrum": "floating-action-button",
+    "Ant Design": "FloatButton"
+   },
+   "recipe": "파생"
+  },
+  {
+   "component": "Stepper",
+   "ko": "스텝",
+   "count": 3,
+   "systems": {
+    "Carbon": "progress-indicator",
+    "Spectrum": "steplist",
+    "Ant Design": "Steps"
+   },
+   "recipe": "구조"
+  },
+  {
+   "component": "Rating",
+   "ko": "별점",
+   "count": 3,
+   "systems": {
+    "Fluent 2": "Rating",
+    "Spectrum": "rating",
+    "Ant Design": "Rate"
+   },
+   "recipe": "구조"
+  },
+  {
+   "component": "Carousel",
+   "ko": "캐러셀",
+   "count": 3,
+   "systems": {
+    "M3": "Carousel",
+    "Fluent 2": "Carousel",
+    "Ant Design": "Carousel"
+   },
+   "recipe": "구조"
+  },
+  {
+   "component": "Toolbar",
+   "ko": "툴바(액션 바)",
+   "count": 3,
+   "systems": {
+    "Fluent 2": "Toolbar",
+    "Spectrum": "action-bar",
+    "Primer": "ActionBar"
+   },
+   "recipe": "구조"
+  }
+ ],
+ "excluded": [
+  {
+   "component": "Bottom navigation (탭 바)",
+   "count": 1,
+   "systems": {
+    "M3": "Navigation bar"
+   }
+  },
+  {
+   "component": "Timeline",
+   "count": 2,
+   "systems": {
+    "Primer": "Timeline",
+    "Ant Design": "Timeline"
+   }
+  },
+  {
+   "component": "Description list",
+   "count": 2,
+   "systems": {
+    "Polaris": "DescriptionList",
+    "Ant Design": "Descriptions"
+   }
+  }
+ ],
+ "metrics": {
+  "button.height": {
+   "values": {
+    "M3": 40,
+    "Carbon": 48,
+    "Fluent 2": 32,
+    "Spectrum": 32,
+    "Polaris": 28,
+    "Primer": 32,
+    "Ant Design": 32
+   },
+   "n": 7,
+   "median": 32,
+   "min": 25.6,
+   "max": 38.4,
+   "enforced": true
+  },
+  "button.paddingX": {
+   "values": {
+    "M3": 24,
+    "Carbon": 16,
+    "Fluent 2": 12,
+    "Spectrum": 16,
+    "Polaris": 12,
+    "Primer": 12,
+    "Ant Design": 15
+   },
+   "n": 7,
+   "median": 15,
+   "min": 12.0,
+   "max": 18.0,
+   "enforced": true
+  },
+  "button.gap": {
+   "values": {
+    "M3": 8,
+    "Carbon": null,
+    "Fluent 2": 6,
+    "Spectrum": 6,
+    "Polaris": 2,
+    "Primer": 8,
+    "Ant Design": 8
+   },
+   "n": 6,
+   "median": 7.0,
+   "min": 5.6,
+   "max": 8.4,
+   "enforced": true
+  },
+  "button.iconSize": {
+   "values": {
+    "M3": 18,
+    "Carbon": 16,
+    "Fluent 2": 20,
+    "Spectrum": null,
+    "Polaris": null,
+    "Primer": null,
+    "Ant Design": null
+   },
+   "n": 3,
+   "median": 18,
+   "enforced": false
+  },
+  "button.fontSize": {
+   "values": {
+    "M3": 14,
+    "Carbon": 14,
+    "Fluent 2": 14,
+    "Spectrum": 14,
+    "Polaris": 13,
+    "Primer": 14,
+    "Ant Design": 14
+   },
+   "n": 7,
+   "median": 14,
+   "min": 11.2,
+   "max": 16.8,
+   "enforced": true
+  },
+  "button.minWidth": {
+   "values": {
+    "M3": 64,
+    "Carbon": null,
+    "Fluent 2": 96,
+    "Spectrum": 72,
+    "Polaris": 28,
+    "Primer": null,
+    "Ant Design": null
+   },
+   "n": 4,
+   "median": 68.0,
+   "min": 54.4,
+   "max": 81.6,
+   "enforced": true
+  },
+  "textField.height": {
+   "values": {
+    "M3": 56,
+    "Carbon": 40,
+    "Fluent 2": 32,
+    "Spectrum": 32,
+    "Polaris": 32,
+    "Primer": 32,
+    "Ant Design": 32
+   },
+   "n": 7,
+   "median": 32,
+   "min": 25.6,
+   "max": 38.4,
+   "enforced": true
+  },
+  "textField.paddingX": {
+   "values": {
+    "M3": 16,
+    "Carbon": 16,
+    "Fluent 2": 12,
+    "Spectrum": 12,
+    "Polaris": 12,
+    "Primer": 12,
+    "Ant Design": 11
+   },
+   "n": 7,
+   "median": 12,
+   "min": 9.6,
+   "max": 14.4,
+   "enforced": true
+  },
+  "textField.fontSize": {
+   "values": {
+    "M3": 16,
+    "Carbon": 14,
+    "Fluent 2": 14,
+    "Spectrum": 14,
+    "Polaris": 13,
+    "Primer": 14,
+    "Ant Design": 14
+   },
+   "n": 7,
+   "median": 14,
+   "min": 11.2,
+   "max": 16.8,
+   "enforced": true
+  },
+  "checkbox.size": {
+   "values": {
+    "M3": 18,
+    "Carbon": 16,
+    "Fluent 2": 16,
+    "Spectrum": 16,
+    "Polaris": null,
+    "Primer": null,
+    "Ant Design": 16
+   },
+   "n": 5,
+   "median": 16,
+   "min": 12.8,
+   "max": 19.2,
+   "enforced": true
+  },
+  "radio.size": {
+   "values": {
+    "M3": 20,
+    "Carbon": 18,
+    "Fluent 2": 16,
+    "Spectrum": 14,
+    "Polaris": null,
+    "Primer": null,
+    "Ant Design": 16
+   },
+   "n": 5,
+   "median": 16,
+   "min": 12.8,
+   "max": 19.2,
+   "enforced": true
+  },
+  "switch.trackWidth": {
+   "values": {
+    "M3": 52,
+    "Carbon": 48,
+    "Fluent 2": 40,
+    "Spectrum": 26,
+    "Polaris": null,
+    "Primer": null,
+    "Ant Design": 44
+   },
+   "n": 5,
+   "median": 44,
+   "min": 35.2,
+   "max": 52.8,
+   "enforced": true
+  },
+  "switch.trackHeight": {
+   "values": {
+    "M3": 32,
+    "Carbon": 24,
+    "Fluent 2": 20,
+    "Spectrum": 16,
+    "Polaris": null,
+    "Primer": 32,
+    "Ant Design": 22
+   },
+   "n": 6,
+   "median": 23.0,
+   "min": 18.4,
+   "max": 27.6,
+   "enforced": true
+  },
+  "chip.height": {
+   "values": {
+    "M3": 32,
+    "Carbon": 24,
+    "Fluent 2": 32,
+    "Spectrum": null,
+    "Polaris": null,
+    "Primer": null,
+    "Ant Design": 22
+   },
+   "n": 4,
+   "median": 28.0,
+   "min": 22.4,
+   "max": 33.6,
+   "enforced": true
+  },
+  "chip.paddingX": {
+   "values": {
+    "M3": 16,
+    "Carbon": null,
+    "Fluent 2": null,
+    "Spectrum": null,
+    "Polaris": 6,
+    "Primer": null,
+    "Ant Design": 7
+   },
+   "n": 3,
+   "median": 7,
+   "enforced": false
+  },
+  "tabs.height": {
+   "values": {
+    "M3": 48,
+    "Carbon": null,
+    "Fluent 2": 44,
+    "Spectrum": 48,
+    "Polaris": 28,
+    "Primer": null,
+    "Ant Design": 46
+   },
+   "n": 5,
+   "median": 46,
+   "min": 36.8,
+   "max": 55.2,
+   "enforced": true
+  },
+  "tabs.paddingX": {
+   "values": {
+    "M3": 16,
+    "Carbon": null,
+    "Fluent 2": 10,
+    "Spectrum": 12,
+    "Polaris": 12,
+    "Primer": null,
+    "Ant Design": null
+   },
+   "n": 4,
+   "median": 12.0,
+   "min": 9.6,
+   "max": 14.4,
+   "enforced": true
+  },
+  "menuItem.height": {
+   "values": {
+    "M3": null,
+    "Carbon": 32,
+    "Fluent 2": 32,
+    "Spectrum": null,
+    "Polaris": 32,
+    "Primer": null,
+    "Ant Design": 40
+   },
+   "n": 4,
+   "median": 32.0,
+   "min": 25.6,
+   "max": 38.4,
+   "enforced": true
+  },
+  "menuItem.paddingX": {
+   "values": {
+    "M3": null,
+    "Carbon": 16,
+    "Fluent 2": null,
+    "Spectrum": null,
+    "Polaris": null,
+    "Primer": null,
+    "Ant Design": 16
+   },
+   "n": 2,
+   "median": 16.0,
+   "enforced": false
+  },
+  "tooltip.maxWidth": {
+   "values": {
+    "M3": null,
+    "Carbon": 288,
+    "Fluent 2": 240,
+    "Spectrum": 160,
+    "Polaris": 200,
+    "Primer": 250,
+    "Ant Design": 250
+   },
+   "n": 6,
+   "median": 245.0,
+   "min": 196.0,
+   "max": 294.0,
+   "enforced": true
+  },
+  "tooltip.paddingX": {
+   "values": {
+    "M3": null,
+    "Carbon": 16,
+    "Fluent 2": 11,
+    "Spectrum": null,
+    "Polaris": null,
+    "Primer": 9,
+    "Ant Design": 8
+   },
+   "n": 4,
+   "median": 10.0,
+   "min": 8.0,
+   "max": 12.0,
+   "enforced": true
+  },
+  "tooltip.fontSize": {
+   "values": {
+    "M3": 12,
+    "Carbon": 14,
+    "Fluent 2": 12,
+    "Spectrum": null,
+    "Polaris": null,
+    "Primer": 12,
+    "Ant Design": 14
+   },
+   "n": 5,
+   "median": 12,
+   "min": 9.6,
+   "max": 14.4,
+   "enforced": true
+  },
+  "dialog.maxWidth": {
+   "values": {
+    "M3": 560,
+    "Carbon": null,
+    "Fluent 2": 600,
+    "Spectrum": 480,
+    "Polaris": 620,
+    "Primer": 480,
+    "Ant Design": 520
+   },
+   "n": 6,
+   "median": 540.0,
+   "min": 432.0,
+   "max": 648.0,
+   "enforced": true
+  },
+  "dialog.padding": {
+   "values": {
+    "M3": 24,
+    "Carbon": null,
+    "Fluent 2": 24,
+    "Spectrum": null,
+    "Polaris": null,
+    "Primer": 16,
+    "Ant Design": 24
+   },
+   "n": 4,
+   "median": 24.0,
+   "min": 19.2,
+   "max": 28.8,
+   "enforced": true
+  },
+  "toast.maxWidth": {
+   "values": {
+    "M3": null,
+    "Carbon": 288,
+    "Fluent 2": null,
+    "Spectrum": 336,
+    "Polaris": 500,
+    "Primer": null,
+    "Ant Design": 384
+   },
+   "n": 4,
+   "median": 360.0,
+   "min": 288.0,
+   "max": 432.0,
+   "enforced": true
+  },
+  "progressBar.thickness": {
+   "values": {
+    "M3": 4,
+    "Carbon": 8,
+    "Fluent 2": 2,
+    "Spectrum": 6,
+    "Polaris": 16,
+    "Primer": 8,
+    "Ant Design": 8
+   },
+   "n": 7,
+   "median": 8,
+   "min": 6.4,
+   "max": 9.6,
+   "enforced": true
+  },
+  "spinner.size": {
+   "values": {
+    "M3": 48,
+    "Carbon": null,
+    "Fluent 2": null,
+    "Spectrum": 32,
+    "Polaris": 44,
+    "Primer": null,
+    "Ant Design": 20
+   },
+   "n": 4,
+   "median": 38.0,
+   "min": 30.4,
+   "max": 45.6,
+   "enforced": true
+  },
+  "button.paddingX/height": {
+   "values": {
+    "M3": 0.6,
+    "Carbon": 0.333,
+    "Fluent 2": 0.375,
+    "Spectrum": 0.5,
+    "Polaris": 0.429,
+    "Primer": 0.375,
+    "Ant Design": 0.469
+   },
+   "n": 7,
+   "unit": "ratio",
+   "median": 0.429,
+   "min": 0.343,
+   "max": 0.515,
+   "enforced": true
+  },
+  "button.minWidth/height": {
+   "values": {
+    "M3": 1.6,
+    "Carbon": null,
+    "Fluent 2": 3.0,
+    "Spectrum": 2.25,
+    "Polaris": 1.0,
+    "Primer": null,
+    "Ant Design": null
+   },
+   "n": 4,
+   "unit": "ratio",
+   "median": 1.925,
+   "min": 1.54,
+   "max": 2.31,
+   "enforced": true
+  },
+  "textField.paddingX/height": {
+   "values": {
+    "M3": 0.286,
+    "Carbon": 0.4,
+    "Fluent 2": 0.375,
+    "Spectrum": 0.375,
+    "Polaris": 0.375,
+    "Primer": 0.375,
+    "Ant Design": 0.344
+   },
+   "n": 7,
+   "unit": "ratio",
+   "median": 0.375,
+   "min": 0.3,
+   "max": 0.45,
+   "enforced": true
+  },
+  "switch.trackWidth/trackHeight": {
+   "values": {
+    "M3": 1.625,
+    "Carbon": 2.0,
+    "Fluent 2": 2.0,
+    "Spectrum": 1.625,
+    "Polaris": null,
+    "Primer": null,
+    "Ant Design": 2.0
+   },
+   "n": 5,
+   "unit": "ratio",
+   "median": 2.0,
+   "min": 1.6,
+   "max": 2.4,
+   "enforced": true
+  },
+  "textField.height=button.height": {
+   "values": {
+    "M3": false,
+    "Carbon": false,
+    "Fluent 2": true,
+    "Spectrum": true,
+    "Polaris": false,
+    "Primer": true,
+    "Ant Design": true
+   },
+   "n": 7,
+   "agree": 4
+  }
+ }
+}
